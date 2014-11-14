@@ -25,7 +25,7 @@ var TEN_MINUTES_LEFT = 300000; // The X_minutes_left values are computed by the 
 var FIVE_MINUTES_LEFT = 600000; // So if the limit is 15min, for 10 min left we consider that 5 min passed (=300000ms)
 var TWO_MINUTES_LEFT = 780000;
 var FIN_TIEMPO = 900000;
-```js
+```
 
 
 In the following part of the script the timeouts must be updated to show the proper warnings as well.
@@ -61,7 +61,7 @@ if ($(this).val() == "Alquilar")
 				alertar(buttonName, "0");
 				}, FIN_TIEMPO);
 		}
-```js
+```
 
 
 * Tools list: There is a var called *HERRAMIENTAS_OPTION* which has the full html for the selects. 
